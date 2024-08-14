@@ -17,7 +17,7 @@ public class TransformMap {
         Map<String, Integer> sumMap = map.entrySet().stream()
                 .collect(Collectors.toMap(Map.Entry::getKey,
                         entry-> entry.getValue().stream().mapToInt(Integer::intValue).sum()));
-        
+
         System.out.println(sumMap);
 
     }
