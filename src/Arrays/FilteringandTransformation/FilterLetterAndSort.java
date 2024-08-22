@@ -1,12 +1,12 @@
 package Arrays.FilteringandTransformation;
 
-//Given an array of strings, filter out all strings that start with a
+//Given an array of strings, filter out all strings that start with 'a'
 //specific letter and then sort the remaining strings alphabetically
 
 import java.util.Arrays;
 import java.util.List;
 
-public class FilterLetterandSort {
+public class FilterLetterAndSort {
     public static void main(String[] args){
         String[] words = {"apple", "banana", "grapes", "cherry","avocado","almond"};
         char specificLetter = 'a';
